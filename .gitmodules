@@ -1,0 +1,3 @@
+[submodule "read_sensors/spincl"]
+	path = read_sensors/spincl
+	url = https://github.com/CrosseyeJack/spincl
