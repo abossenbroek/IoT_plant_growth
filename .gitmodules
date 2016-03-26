@@ -1,3 +1,9 @@
 [submodule "read_sensors/spincl"]
 	path = read_sensors/spincl
 	url = https://github.com/CrosseyeJack/spincl
+[submodule "read_sensors/Adafruit_Python_GPIO"]
+	path = read_sensors/Adafruit_Python_GPIO
+	url = https://github.com/adafruit/Adafruit_Python_GPIO.git
+[submodule "read_sensors/Adafruit_Python_BME280"]
+	path = read_sensors/Adafruit_Python_BME280
+	url = https://github.com/adafruit/Adafruit_Python_BME280
