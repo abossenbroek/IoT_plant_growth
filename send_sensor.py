@@ -54,6 +54,8 @@ air_humidity_ubi_api_key = \
 air_temperature_ubi_api_key = \
     config.get('ubisoftAPI', 'air_temperature_api_key')
 
+print 'ubisoft_api_token:', ubisoft_api_token
+
 # Open SPI bus
 spi = spidev.SpiDev()
 spi.open(spi_bus, mcp3008_spi_device)
@@ -62,6 +64,7 @@ spi.open(spi_bus, mcp3008_spi_device)
 if is_ubisoft_requested:
     # Create an ApiClient object
     ubi_api = ApiClient(ubisoft_api_token)
+
 
     # Get a Ubidots Variable
     soil_sensor_level_ubi = \
